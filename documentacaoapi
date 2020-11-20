@@ -1,0 +1,28 @@
+http://localhost:3000/v1/api/usuarios listar usuarios authorization required
+http://localhost:3000/v1/api/usuarios/registrar registrar usuarios 
+
+/////Cadastrar Loja
+
+http://localhost:3000/v1/api/lojas
+"nome": "Lojac"
+"cnpj": "28.674.612/0001-89"
+"email": "loja@teste.com"
+"telefones":[ "3432120578","3432101232"
+  ],
+  "endereco":{
+"local": "Rua teste"
+"numero": "65"
+"complemento": "casa1"
+"bairro": "Santa Monica"
+"cidade":"Uberlandia" 
+"CEP": "38408278"
+}       
+}
+
+///////////////
+
+
+
+//atualizar loja
+
+http://localhost:3000/v1/api/lojas/5fb70842f8e14d15a0da57e3?loja=5fb70842f8e14d15a0da57e3
